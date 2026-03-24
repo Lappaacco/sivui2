@@ -14,7 +14,7 @@ export default function Etusivu() {
         </div>
         <h1 className="etusivu-slogan">Merinellis sinua varten!</h1>
         <p className="etusivu-kuvaus">
-          Meillä saat ammattitaitoista ja asiakas lähtöistä palvelua.
+          Meillä saat ammattitaitoista ja asiakaslähtöistä palvelua.
         </p>
         <br/>
         <p className="etusivu-kuvaus">
