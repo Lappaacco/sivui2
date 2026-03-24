@@ -1,0 +1,179 @@
+/* ──────────────────── Sidebar (desktop) ──────────────────── */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 100vh;
+  background-color: var(--cl-warm);
+  color: var(--cl-text);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.5rem;
+  z-index: 100;
+}
+
+.sidebar-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  margin-bottom: 2.5rem;
+  user-select: none;
+  isolation: isolate;
+}
+
+.sidebar-logo-img {
+  max-height: 150px;
+  max-width: 210px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.sidebar .company-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--cl-sidebar);
+}
+
+.sidebar-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sidebar-links li button {
+  color: #000;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.6rem 0.75rem;
+  border-radius: 6px;
+  width: 100%;
+  text-align: left;
+  transition: background 0.2s, color 0.2s;
+}
+
+.sidebar-links li button:hover,
+.sidebar-links li button:focus-visible {
+  background: rgba(88,120,190,0.12);
+  color: var(--cl-sidebar);
+  outline: none;
+}
+
+.sidebar-links li button.active {
+  background: rgba(88,120,190,0.15);
+  color: var(--cl-sidebar);
+  font-weight: 700;
+  border-left: 3px solid var(--cl-sidebar);
+  padding-left: calc(0.75rem - 3px);
+}
+
+/* ──────────────────── Top navbar (mobile) ──────────────────── */
+.topbar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: var(--cl-warm);
+  color: var(--cl-text);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+  z-index: 100;
+}
+
+.topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  user-select: none;
+  isolation: isolate;
+}
+
+.topbar-logo-img {
+  max-height: 42px;
+  max-width: 110px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.topbar .company-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--cl-sidebar);
+}
+
+/* Hamburger button */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--cl-text);
+  border-radius: 2px;
+}
+
+/* Dropdown menu */
+.topbar-dropdown {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background-color: var(--cl-warm);
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.topbar-dropdown li button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: var(--cl-text);
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+}
+
+.topbar-dropdown li button:hover {
+  background-color: rgba(88,120,190,0.1);
+  color: var(--cl-sidebar);
+}
+
+.topbar-dropdown li button.active {
+  color: var(--cl-sidebar);
+  font-weight: 700;
+}
+
+/* ──────────────────── Responsive breakpoint ──────────────────── */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .topbar {
+    display: flex;
+  }
+}

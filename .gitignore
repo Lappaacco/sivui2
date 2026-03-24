@@ -1,0 +1,59 @@
+# ──────────────────── .NET / ASP.NET Core ────────────────────
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# User secrets (NEVER commit these)
+secrets.json
+appsettings.Development.json
+
+# ASP.NET Core dev certificates (private keys)
+*.pfx
+*.p12
+*.pem
+*.key
+*.crt
+
+# ──────────────────── Node / Vite / React ────────────────────
+node_modules/
+dist/
+dist-ssr/
+.cache/
+.parcel-cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ──────────────────── Environment variables ────────────────────
+# TÄRKEÄÄ: Älä koskaan lisää .env tiedostoja versionhallintaan
+.env
+.env.*
+!.env.example
+
+# ──────────────────── IDE / OS ────────────────────
+.vscode/settings.json
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ──────────────────── GitHub Actions tuotokset ────────────────
+# (dist commitoidaan vain GitHub Pages -deployn kautta CI:ssä)

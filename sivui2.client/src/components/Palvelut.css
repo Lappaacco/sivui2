@@ -1,0 +1,84 @@
+﻿/* ── Palvelut section ── */
+.palvelut-inner {
+  max-width: 860px;
+  text-align: left;
+}
+
+.palvelut-heading {
+  font-size: 2.25rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--cl-purple), var(--cl-pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.1;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.palvelut-kortit {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.palvelu-kortti {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.75rem 1.75rem 1.5rem;
+  border-top: 4px solid transparent;
+  background-clip: padding-box;
+  box-shadow: 0 2px 12px rgba(136,120,190,0.1);
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+}
+
+.palvelu-kortti::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+  padding: 4px 0 0;
+  background: linear-gradient(135deg, var(--cl-purple), var(--cl-pink)) border-box;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.palvelu-kortti:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 24px rgba(136,120,190,0.18);
+}
+
+.palvelu-nimi {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--cl-dark);
+  margin-bottom: 0.6rem;
+  line-height: 1.2;
+}
+
+.palvelu-kuvaus {
+  font-size: 0.95rem !important;
+  color: var(--cl-text-muted) !important;
+  line-height: 1.8;
+}
+
+@media (max-width: 640px) {
+  .palvelut-heading {
+    font-size: 1.85rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .palvelut-kortit {
+    grid-template-columns: 1fr;
+  }
+
+  .palvelu-nimi {
+    font-size: 1.1rem;
+  }
+}

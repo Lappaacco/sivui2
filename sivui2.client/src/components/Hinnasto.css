@@ -1,0 +1,114 @@
+/* ── Välilehdet ── */
+.hinnasto-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hinnasto-tab {
+  background: none;
+  border: 2px solid var(--cl-purple);
+  color: var(--cl-dark);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.hinnasto-tab:hover {
+  background-color: rgba(136,120,190,0.12);
+}
+
+.hinnasto-tab--aktiivi {
+  background-color: var(--cl-purple);
+  border-color: var(--cl-purple);
+  color: #fff;
+}
+
+/* ── Osio ── */
+.hinnasto-osio {
+  margin-bottom: 2.25rem;
+}
+
+.hinnasto-osio-otsikko {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--cl-dark);
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--cl-pink);
+}
+
+/* ── Palvelurivi ── */
+.hinnasto-rivi {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px dotted #e8e0d8;
+}
+
+.hinnasto-nimi {
+  font-size: 0.95rem;
+  color: #333;
+  flex: 1;
+  text-align: left;
+}
+
+.hinnasto-hinta {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  white-space: nowrap;
+}
+
+/* ── Alaryhmä ── */
+.hinnasto-alaryhmä {
+  margin-bottom: 1rem;
+}
+
+.hinnasto-alaotsikko {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--cl-purple);
+  margin-bottom: 0.35rem;
+  margin-top: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ── Huomiot ── */
+.hinnasto-huomio {
+  font-size: 0.85rem;
+  color: #777;
+  margin: 0.35rem 0 0.5rem;
+  font-style: italic;
+  text-align: left;
+}
+
+.hinnasto-huomio--bold {
+  color: var(--cl-purple);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.hinnasto-huomiot-lista {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+/* ── Sisältö ── */
+.hinnasto-sisalto {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}

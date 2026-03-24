@@ -1,0 +1,88 @@
+.footer {
+  background-color: var(--cl-purple);
+  color: rgba(255,255,255,0.7);
+  padding: 2rem 3rem;
+}
+
+.footer-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.footer-copy {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255,255,255,0.85);
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.55rem;
+  font-size: 0.9rem;
+}
+
+.footer-credits-label {
+  color: rgba(255,255,255,0.6);
+}
+
+.footer-sep {
+  color: rgba(255,255,255,0.3);
+}
+
+.footer-link {
+  color: rgba(255,255,255,0.75);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-dev-link {
+  color: rgba(255,255,255,0.85);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.footer-dev-link strong {
+  font-weight: 700;
+}
+
+.footer-dev-link:hover {
+  color: #fff;
+}
+
+.linkedin-logo {
+  width: 15px;
+  height: 15px;
+  fill: rgba(255,255,255,0.75);
+  vertical-align: middle;
+  transition: fill 0.2s;
+}
+
+.footer-dev-link:hover .linkedin-logo {
+  fill: #fff;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 1.75rem 1.5rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 1.5rem;
+  }
+}

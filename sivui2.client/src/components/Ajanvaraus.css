@@ -1,0 +1,25 @@
+.ajanvaraus-peruutus {
+  background-color: #fff5f7;
+  border-left: 4px solid #c0607a;
+  border-radius: 0 8px 8px 0;
+  padding: 1.1rem 1.5rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ajanvaraus-peruutus p {
+  font-size: 0.97rem !important;
+  color: #4a3a3a !important;
+  line-height: 1.7;
+}
+
+.ajanvaraus-peruutus p + p {
+  margin-top: 0.5rem;
+}
+
+.ajanvaraus-info {
+  margin-bottom: 1rem;
+}

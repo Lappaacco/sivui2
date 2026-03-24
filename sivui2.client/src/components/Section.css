@@ -1,0 +1,105 @@
+/* Shared section styles */
+.section {
+  padding: 5rem 3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: var(--cl-white);
+}
+
+.section--hero {
+  min-height: 100vh;
+  background-color: var(--cl-purple);
+  align-items: center;
+  justify-content: center;
+}
+
+.section--hero h1,
+.section--hero p {
+  color: #000;
+}
+
+.section--hero h1 {
+  color: #000;
+}
+
+.section--alt {
+  background-color: var(--cl-pink-light);
+}
+
+.section-inner {
+  max-width: 760px;
+  width: 100%;
+  text-align: center;
+}
+
+.section-inner h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  color: #000;
+}
+
+.section-inner h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #000;
+}
+
+.section-inner p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--cl-text-muted);
+}
+
+/* Palvelut grid */
+.palvelut-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.palvelu-card {
+  background-color: #fff;
+  border: 1px solid #e0d9d0;
+  border-radius: 10px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.palvelu-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #1a1a1a;
+}
+
+.palvelu-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Ajanvaraus placeholder */
+.ajanvaraus-placeholder {
+  margin-top: 2rem;
+  padding: 2rem;
+  border: 2px dashed #bbb;
+  border-radius: 10px;
+  text-align: center;
+  color: #999;
+  font-size: 1rem;
+  background-color: #fdf9f5;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 1.5rem;
+  }
+
+  .section-inner h1 {
+    font-size: 2rem;
+  }
+}

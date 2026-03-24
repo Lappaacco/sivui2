@@ -1,0 +1,198 @@
+[
+  {
+    "id": "kampaamo",
+    "nimi": "Kampaamo",
+    "osiot": [
+      {
+        "otsikko": "Hiustenleikkaukset & kampaukset",
+        "palvelut": [
+          { "nimi": "Hiustenleikkaukset", "hinta": "alkaen 51€" },
+          { "nimi": "Hiusten tasoitus (pitkät hiukset, ei sisällä pesua)", "hinta": "36€" },
+          { "nimi": "Otsahiusten leikkaus", "hinta": "16€" },
+          { "nimi": "Koneella ajo", "hinta": "13€" }
+        ]
+      },
+      {
+        "otsikko": "Hiusten ja päänahan pesut sekä hoitokäsittelyt",
+        "palvelut": [
+          {
+            "nimi": "Hiusten ja päänahan hoito",
+            "hinta": "26€",
+            "huomio": "Palvelu sisältää hiustenhoidon juuri sinun hiuksiesi tarpeiden mukaan sekä rentouttavan hieronnan hierovassa pesutuolissa. Ei sisällä hiusten kuivausta."
+          }
+        ]
+      },
+      {
+        "otsikko": "Kampaukset",
+        "palvelut": [
+          { "nimi": "Hiusten fönkampaukset", "hinta": "alkaen 34€" },
+          { "nimi": "Pikakampaus", "hinta": "alkaen 21€" },
+          { "nimi": "Juhlakampaukset", "hinta": "alkaen 61€" },
+          {
+            "nimi": "Hääpaketti",
+            "hinta": "223€",
+            "huomio": "Palvelu sisältää hääkampauksen & meikin suunnittelun ja harjoituksen sekä varsinaisen hääkampauksen & meikin."
+          }
+        ]
+      },
+      {
+        "otsikko": "Hiusten värjäykset",
+        "palvelut": [
+          {
+            "alaotsikko": "Kestovärjäys, leikkaus ja föönaus",
+            "rivit": [
+              { "nimi": "Extra lyhyt (parturityö/koneella sivut)", "hinta": "102€" },
+              { "nimi": "Lyhyet hiukset", "hinta": "122€" },
+              { "nimi": "Puolipitkät hiukset", "hinta": "132€" },
+              { "nimi": "Pitkät hiukset", "hinta": "142€" },
+              { "nimi": "Extra pitkät hiukset", "hinta": "152€" }
+            ]
+          },
+          {
+            "alaotsikko": "Kestovärjäys ja föönaus",
+            "rivit": [
+              { "nimi": "Extra lyhyt (parturityö/koneella sivut)", "hinta": "87€" },
+              { "nimi": "Lyhyet hiukset", "hinta": "102€" },
+              { "nimi": "Puolipitkät hiukset", "hinta": "112€" },
+              { "nimi": "Pitkät hiukset", "hinta": "122€" },
+              { "nimi": "Extra pitkät hiukset", "hinta": "132€" }
+            ]
+          },
+          {
+            "alaotsikko": "Vaaleammaksi värjäys / raidoitus, leikkaus ja föönaus",
+            "rivit": [
+              { "nimi": "Extra lyhyt (parturityö/koneella sivut)", "hinta": "112€" },
+              { "nimi": "Lyhyet hiukset", "hinta": "132€" },
+              { "nimi": "Puolipitkät hiukset", "hinta": "142€" },
+              { "nimi": "Pitkät hiukset", "hinta": "152€" },
+              { "nimi": "Extra pitkät hiukset", "hinta": "162€" }
+            ]
+          },
+          {
+            "alaotsikko": "Vaaleammaksi värjäys / raidoitus ja föönaus",
+            "rivit": [
+              { "nimi": "Extra lyhyt (parturityö/koneella sivut)", "hinta": "97€" },
+              { "nimi": "Lyhyet hiukset", "hinta": "112€" },
+              { "nimi": "Puolipitkät hiukset", "hinta": "122€" },
+              { "nimi": "Pitkät hiukset", "hinta": "132€" },
+              { "nimi": "Extra pitkät hiukset", "hinta": "142€" }
+            ]
+          }
+        ],
+        "huomiot": [
+          "Alle 16-vuotiaille värjäykset vain suoraväreillä tai raidoituksella.",
+          "Suuremmissa värimuutoksissa kysythän tarkemman hinnan kampaajaltasi."
+        ],
+        "erikoispalvelut": [
+          {
+            "nimi": "Nuorisopaketti (alle 18v)",
+            "hinta": "alkaen 107€",
+            "huomio": "Palvelu sisältää hiusten värjäyksen, leikkauksen ja föönauksen."
+          }
+        ]
+      },
+      {
+        "otsikko": "Kihartamiskäsittelyt",
+        "palvelut": [
+          {
+            "alaotsikko": "Hiustenleikkaus ja kestokiharointi",
+            "rivit": [
+              { "nimi": "Extra lyhyt hius (sivut koneella)", "hinta": "102€" },
+              { "nimi": "Lyhyt hius", "hinta": "147€" },
+              { "nimi": "Puolipitkä hius", "hinta": "160€" },
+              { "nimi": "Pitkä hius", "hinta": "183€" }
+            ]
+          },
+          {
+            "alaotsikko": "Kestokiharointi",
+            "rivit": [
+              { "nimi": "Extra lyhyt hius (sivut koneella)", "hinta": "81€" },
+              { "nimi": "Lyhyt hius", "hinta": "122€" },
+              { "nimi": "Puolipitkä hius", "hinta": "137€" },
+              { "nimi": "Pitkä hius", "hinta": "167€" }
+            ]
+          }
+        ]
+      },
+      {
+        "otsikko": "Kulmien ja ripsien käsittelyt",
+        "palvelut": [
+          { "nimi": "Kulmien ja ripsien värjäys ja muotoilu", "hinta": "36€" },
+          { "nimi": "Kulmien ja ripsien värjäys", "hinta": "28€" },
+          { "nimi": "Kulmien värjäys", "hinta": "14€" },
+          { "nimi": "Ripsien värjäys", "hinta": "19€" },
+          {
+            "nimi": "Kulmien muotoilu",
+            "hinta": "14€",
+            "huomio": "Palvelu sisältää kulmien muotoilun joko vahalla tai nyppimällä."
+          },
+          { "nimi": "Ylähuulen ja leuan vahaus", "hinta": "6€" },
+          { "nimi": "Browlift", "hinta": "alkaen 45€" },
+          { "nimi": "Lashlift", "hinta": "alkaen 75€" },
+          { "nimi": "Lashlift & Browlift paketti", "hinta": "105€" }
+        ]
+      },
+      {
+        "otsikko": "Ripsienpidennykset",
+        "palvelut": [
+          {
+            "alaotsikko": "Klassinen ripsipidennys",
+            "rivit": [
+              { "nimi": "Ensilaitto", "hinta": "97€" },
+              { "nimi": "Ripsihuolto", "hinta": "76€" },
+              { "nimi": "Pikafix", "hinta": "45€" }
+            ]
+          },
+          {
+            "alaotsikko": "Volyymiripsipidennys",
+            "rivit": [
+              { "nimi": "Ensilaitto", "hinta": "115€" },
+              { "nimi": "Ripsien huolto", "hinta": "80€" },
+              { "nimi": "Pikafix", "hinta": "50€" }
+            ]
+          },
+          { "nimi": "Ripsienpidennysten turvallinen poisto", "hinta": "alkaen 34€ / 30 min" }
+        ]
+      },
+      {
+        "otsikko": "Meikkaukset",
+        "palvelut": [
+          { "nimi": "Päivämeikki", "hinta": "36€" },
+          { "nimi": "Juhlameikki", "hinta": "56€" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lapset",
+    "nimi": "Lapset",
+    "osiot": [
+      {
+        "otsikko": "Hiustenleikkaukset",
+        "palvelut": [
+          { "nimi": "Hiustenleikkaus (0–7 v)", "hinta": "28€" },
+          { "nimi": "Nuorten hiustenleikkaus – tytöt (8–13 v)", "hinta": "alkaen 42€" },
+          { "nimi": "Nuorten hiustenleikkaus – pojat (8–13 v)", "hinta": "alkaen 30€" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "parturi",
+    "nimi": "Parturi",
+    "osiot": [
+      {
+        "otsikko": "Hiustenleikkaukset",
+        "palvelut": [
+          { "nimi": "Hiustenleikkaus (sisältää pesun)", "hinta": "35€" },
+          { "nimi": "Hiustenleikkaus (ilman pesua)", "hinta": "33€" },
+          { "nimi": "Koneella ajo", "hinta": "13€" }
+        ],
+        "huomiot": [
+          "Alle 16-vuotiaille värjäykset vain suoraväreillä tai tekniikoilla, joissa ei tule ihokosketusta (esim. raidoitus).",
+          "Värjäyksien sekä kestokiharointien hinnaston löydät kampaamopuolen hinnastosta."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+@sivui2.Server_HostAddress = http://localhost:5295
+
+GET {{sivui2.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

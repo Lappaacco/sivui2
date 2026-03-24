@@ -1,0 +1,32 @@
+:root {
+  --cl-dark:     #271916;   /* espresso – teksti */
+  --cl-logo-bg:  #3a2228;   /* logon tausta – hero & footer */
+  --cl-sidebar:  #5c52a0;   /* logon liila – sivupalkki */
+  --cl-warm:     #ccbca4;   /* lämmin beige – hero & footer */
+  --cl-purple:   #8878be;   /* logon M yläosa – violetti */
+  --cl-pink:     #e8b4c4;   /* logon M alaosa – blush */
+  --cl-pink-light: #fbf0f3; /* vaalea blush – alt-sectiot */
+  --cl-teal:     #5dd5c0;   /* logon turkoosi ympyrä – hover */
+  --cl-offwhite: #f7f3f1;   /* lämmin vaalea */
+  --cl-white:    #ffffff;
+  --cl-text:     #2c2020;
+  --cl-text-muted: #6b5a55;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--cl-white);
+  color: var(--cl-text);
+}

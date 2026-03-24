@@ -1,0 +1,87 @@
+.etusivu-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 700px;
+}
+
+.etusivu-logo-wrap {
+  margin-bottom: 2rem;
+}
+
+.etusivu-logo {
+  display: block;
+  max-height: 280px;
+  max-width: 280px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.etusivu-slogan {
+  font-size: 2.5rem !important;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 1.25rem;
+  line-height: 1.2;
+}
+
+.etusivu-kuvaus {
+  font-size: 1.05rem !important;
+  color: #000 !important;
+  line-height: 1.75;
+  max-width: 520px;
+  margin-bottom: 0.6rem;
+}
+
+.etusivu-huom {
+  background-color: rgba(136,120,190,0.1);
+  border-left: 4px solid var(--cl-purple);
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1.4rem;
+  text-align: center;
+  max-width: 520px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.etusivu-huom p {
+  font-size: 0.97rem !important;
+  color: #000 !important;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.varaa-nappi {
+  display: inline-block;
+  margin-top: 2.25rem;
+  padding: 0.9rem 2.75rem;
+  background: linear-gradient(135deg, var(--cl-purple), var(--cl-pink));
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, transform 0.15s;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  letter-spacing: 0.03em;
+}
+
+.varaa-nappi:hover {
+  background: var(--cl-teal);
+  color: var(--cl-dark);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .etusivu-slogan {
+    font-size: 1.9rem !important;
+  }
+
+  .etusivu-logo {
+    max-height: 180px;
+    max-width: 180px;
+  }
+}
+
