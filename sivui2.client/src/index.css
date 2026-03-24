@@ -26,7 +26,11 @@ html {
 }
 
 body {
-  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--cl-white);
   color: var(--cl-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sora', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
