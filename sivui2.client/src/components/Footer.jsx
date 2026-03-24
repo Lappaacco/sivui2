@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 export default function Footer() {
@@ -27,7 +28,7 @@ export default function Footer() {
             </svg>
           </a>
           <span className="footer-sep">·</span>
-          <a href="/tietosuojaseloste" className="footer-link">Tietosuojaseloste</a>
+          <Link to="/tietosuojaseloste" className="footer-link">Tietosuojaseloste</Link>
         </div>
       </div>
     </footer>
