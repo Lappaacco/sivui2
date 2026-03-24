@@ -11,7 +11,10 @@ const navLinks = [
 
 function scrollTo(id) {
   const el = document.getElementById(id)
-  if (el) el.scrollIntoView({ behavior: 'smooth' })
+  if (!el) return
+  const topbarHeight = window.innerWidth <= 768 ? 60 : 0
+  const top = el.getBoundingClientRect().top + window.scrollY - topbarHeight
+  window.scrollTo({ top, behavior: 'smooth' })
 }
 
 function NavLogo({ imgClassName }) {
