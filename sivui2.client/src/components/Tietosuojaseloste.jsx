@@ -1,17 +1,25 @@
-import { useEffect } from 'react'
+import { useEffect, useLayoutEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './Tietosuojaseloste.css'
 
 export default function Tietosuojaseloste() {
   const navigate = useNavigate()
 
-  useEffect(() => {
+  useLayoutEffect(() => {
+    const html = document.documentElement
+    const prev = html.style.scrollBehavior
+    html.style.scrollBehavior = 'auto'
     window.scrollTo(0, 0)
+    return () => { html.style.scrollBehavior = prev }
   }, [])
 
   return (
     <div className="ts-page">
-      <button className="ts-back" onClick={() => navigate(-1)} aria-label="Takaisin">
+      <button className="ts-back" onClick={() => {
+        document.documentElement.style.scrollBehavior = 'auto'
+        navigate(-1)
+        setTimeout(() => { document.documentElement.style.scrollBehavior = '' }, 100)
+      }} aria-label="Takaisin">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
           <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
         </svg>

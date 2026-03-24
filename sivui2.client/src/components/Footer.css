@@ -25,7 +25,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 0.4rem 0.55rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .footer-credits-label {
@@ -38,7 +38,7 @@
 
 .footer-link {
   color: rgba(255,255,255,0.75);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .footer-link:hover {

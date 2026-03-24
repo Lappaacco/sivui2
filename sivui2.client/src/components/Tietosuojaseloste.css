@@ -2,6 +2,9 @@
   min-height: 100vh;
   background-color: var(--cl-white);
   padding: 2rem 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .ts-back {
@@ -17,6 +20,8 @@
   padding: 0.5rem 0;
   margin-bottom: 2rem;
   transition: color 0.2s;
+  width: 100%;
+  max-width: 760px;
 }
 
 .ts-back:hover {
