@@ -1,8 +1,13 @@
+import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './Tietosuojaseloste.css'
 
 export default function Tietosuojaseloste() {
   const navigate = useNavigate()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="ts-page">
