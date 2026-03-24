@@ -17,7 +17,7 @@ function scrollTo(id) {
 function NavLogo({ imgClassName }) {
   return (
     <img
-      src="/images/logo.png"
+      src={`${import.meta.env.BASE_URL}images/logo.png`}
       alt="Hiusstudio Merinellis Oy"
       className={imgClassName}
     />

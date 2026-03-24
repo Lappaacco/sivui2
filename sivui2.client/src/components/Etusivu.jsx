@@ -7,7 +7,7 @@ export default function Etusivu() {
       <div className="section-inner etusivu-inner">
         <div className="etusivu-logo-wrap">
           <img
-            src="/images/logo.png"
+            src={`${import.meta.env.BASE_URL}images/logo.png`}
             alt="Hiusstudio Merinellis Oy"
             className="etusivu-logo"
           />
