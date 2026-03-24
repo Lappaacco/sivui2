@@ -75,6 +75,7 @@ export default function Navbar() {
       <nav className="topbar" aria-label="Päänavigaatio">
         <div className="topbar-brand" onClick={() => handleNav('etusivu')} role="button" tabIndex={0} onKeyDown={e => e.key === 'Enter' && handleNav('etusivu')}>
           <NavLogo imgClassName="topbar-logo-img" />
+          <span className="company-name">Hiusstudio Merinellis</span>
         </div>
         <button
           className="hamburger"
