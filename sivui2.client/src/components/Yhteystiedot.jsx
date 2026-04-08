@@ -20,7 +20,7 @@ export default function Yhteystiedot() {
               </div>
               <div className="yhteystiedot-rivi">
                 <span className="yhteystiedot-label">Sähköposti</span>
-                <span className="yhteystiedot-tyhja">—</span>
+                <a href="mailto:kampaamo@merinellis.fi" className="yht-linkki">kampaamo@merinellis.fi</a>
               </div>
               <div className="yhteystiedot-rivi">
                 <span className="yhteystiedot-label">Y-tunnus</span>
@@ -37,7 +37,7 @@ export default function Yhteystiedot() {
                 </div>
                 <div className="aukiolo-rivi">
                   <span className="aukiolo-paiva">La</span>
-                  <span>10–18</span>
+                  <span>10–16</span>
                 </div>
               </div>
               <div className="aukiolo-huom">
