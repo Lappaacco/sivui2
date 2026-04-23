@@ -3,10 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO -->
+    <title>Hiusstudio Merinellis Oy – Parturi-kampaamo Salo</title>
+    <meta name="description" content="Hiusstudio Merinellis Oy – ammattimainen parturi-kampaamo Salon keskustassa kauppakeskus Plazassa. Hiustenleikkaus, meikit, ripset, hiustenpidennykset. Varaa aika helposti!" />
+    <meta name="keywords" content="parturi, kampaamo, parturi-kampaamo, Salo, hiusstudio, Merinellis, hiustenleikkaus, hiustenpidennykset, ripset, meikit, kauppakeskus Plaza" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://merinellis.fi/" />
+
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:type" content="business.business" />
+    <meta property="og:title" content="Hiusstudio Merinellis Oy – Parturi-kampaamo Salo" />
+    <meta property="og:description" content="Ammattimainen parturi-kampaamo Salon sydämessä. Hiustenleikkaus, meikit, ripset ja hiustenpidennykset. Helppo paikoitus kauppakeskus Plazassa." />
+    <meta property="og:url" content="https://merinellis.fi/" />
+    <meta property="og:image" content="https://merinellis.fi/images/logo.png" />
+    <meta property="og:locale" content="fi_FI" />
+    <meta property="og:site_name" content="Hiusstudio Merinellis Oy" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Hiusstudio Merinellis Oy – Parturi-kampaamo Salo" />
+    <meta name="twitter:description" content="Ammattimainen parturi-kampaamo Salon sydämessä. Varaa aika helposti!" />
+    <meta name="twitter:image" content="https://merinellis.fi/images/logo.png" />
+
     <link rel="icon" type="image/png" href="/images/logo.png" />
-    <title>Hiusstudio Merinellis Oy</title>
   </head>
   <body>
+    <!-- JSON-LD: Local Business structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HairSalon",
+      "name": "Hiusstudio Merinellis Oy",
+      "description": "Ammattimainen parturi-kampaamo Salon keskustassa. Hiustenleikkaus, meikit, ripset ja hiustenpidennykset.",
+      "url": "https://merinellis.fi",
+      "telephone": "+35827332158",
+      "email": "kampaamo@merinellis.fi",
+      "image": "https://merinellis.fi/images/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Vilhonkatu 8",
+        "addressLocality": "Salo",
+        "postalCode": "24100",
+        "addressCountry": "FI"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 60.3845,
+        "longitude": 23.1259
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "10:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "10:00",
+          "closes": "16:00"
+        }
+      ],
+      "priceRange": "€€",
+      "currenciesAccepted": "EUR",
+      "paymentAccepted": "Cash, Credit Card",
+      "sameAs": []
+    }
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
