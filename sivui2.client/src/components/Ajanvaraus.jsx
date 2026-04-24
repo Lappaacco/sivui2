@@ -18,7 +18,11 @@ export default function Ajanvaraus() {
     reinitA24()
 
     let timer
+    let lastWidth = window.innerWidth
     const onResize = () => {
+      const currentWidth = window.innerWidth
+      if (currentWidth === lastWidth) return
+      lastWidth = currentWidth
       clearTimeout(timer)
       timer = setTimeout(reinitA24, 300)
     }
