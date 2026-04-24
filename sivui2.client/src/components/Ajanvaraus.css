@@ -1,3 +1,7 @@
+.ajanvaraus-inner {
+  max-width: 960px;
+}
+
 .ajanvaraus-peruutus {
   background-color: #fff5f7;
   border-left: 4px solid #c0607a;
@@ -20,6 +24,13 @@
   margin-top: 0.5rem;
 }
 
-.ajanvaraus-info {
-  margin-bottom: 1rem;
+.ajanvaraus-embed {
+  width: 100%;
+  min-height: 650px;
+}
+
+.ajanvaraus-embed .a24-iframe {
+  display: block;
+  width: 100%;
+  border: none;
 }
