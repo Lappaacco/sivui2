@@ -7,6 +7,13 @@ export default function Ajanvaraus() {
     const scriptUrl = 'https://avoinna24.fi/js/a24.iframe.js'
 
     const reinitA24 = () => {
+      // Lukitaan nykyinen korkeus min-heightiksi ennen uudelleenlatauksen
+      // jotta iframe ei välillä näytä tyhjältä
+      const iframe = document.querySelector('.a24-iframe')
+      if (iframe && iframe.offsetHeight > 0) {
+        iframe.style.minHeight = iframe.offsetHeight + 'px'
+      }
+
       const old = document.querySelector(`script[src="${scriptUrl}"]`)
       if (old) old.remove()
       const script = document.createElement('script')
