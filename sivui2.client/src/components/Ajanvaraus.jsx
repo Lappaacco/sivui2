@@ -5,11 +5,29 @@ import './Ajanvaraus.css'
 export default function Ajanvaraus() {
   useEffect(() => {
     const scriptUrl = 'https://avoinna24.fi/js/a24.iframe.js'
-    if (document.querySelector(`script[src="${scriptUrl}"]`)) return
-    const script = document.createElement('script')
-    script.src = scriptUrl
-    script.async = true
-    document.body.appendChild(script)
+
+    const reinitA24 = () => {
+      const old = document.querySelector(`script[src="${scriptUrl}"]`)
+      if (old) old.remove()
+      const script = document.createElement('script')
+      script.src = scriptUrl
+      script.async = true
+      document.body.appendChild(script)
+    }
+
+    reinitA24()
+
+    let timer
+    const onResize = () => {
+      clearTimeout(timer)
+      timer = setTimeout(reinitA24, 300)
+    }
+
+    window.addEventListener('resize', onResize)
+    return () => {
+      window.removeEventListener('resize', onResize)
+      clearTimeout(timer)
+    }
   }, [])
 
   return (
