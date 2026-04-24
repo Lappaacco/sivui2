@@ -26,15 +26,29 @@ export default function Ajanvaraus() {
           </p>
         </div>
         <div className="ajanvaraus-embed">
-          <iframe
-            src="https://avoinna24.fi/merinellis/reservation"
-            allowTransparency="true"
-            className="a24-iframe"
-            frameBorder="0"
-            scrolling="no"
-            style={{ background: 'none transparent', width: '100%' }}
-            title="Ajanvaraus – Hiusstudio Merinellis"
-          />
+          <div className="ajanvaraus-embed-header">
+            <span className="ajanvaraus-embed-dot" />
+            <span className="ajanvaraus-embed-label">Avoinna24 – Verkkoajanvaraus</span>
+            <a
+              className="ajanvaraus-embed-link"
+              href="https://avoinna24.fi/merinellis/reservation"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Avaa uudessa välilehdessä ↗
+            </a>
+          </div>
+          <div className="ajanvaraus-embed-body">
+            <iframe
+              src="https://avoinna24.fi/merinellis/reservation"
+              allowTransparency="true"
+              className="a24-iframe"
+              frameBorder="0"
+              scrolling="no"
+              style={{ background: 'none transparent', width: '100%' }}
+              title="Ajanvaraus – Hiusstudio Merinellis"
+            />
+          </div>
         </div>
       </div>
     </section>

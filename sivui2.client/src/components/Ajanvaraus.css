@@ -26,6 +26,54 @@
 
 .ajanvaraus-embed {
   width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(92, 82, 160, 0.13), 0 1px 4px rgba(0,0,0,0.07);
+  border: 1.5px solid var(--cl-pink);
+  background: #fff;
+}
+
+.ajanvaraus-embed-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1.25rem;
+  background: var(--cl-sidebar);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  user-select: none;
+}
+
+.ajanvaraus-embed-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--cl-teal);
+  flex-shrink: 0;
+}
+
+.ajanvaraus-embed-label {
+  opacity: 0.92;
+}
+
+.ajanvaraus-embed-link {
+  margin-left: auto;
+  color: var(--cl-pink);
+  font-size: 0.78rem;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.85;
+  transition: opacity 0.15s;
+}
+
+.ajanvaraus-embed-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.ajanvaraus-embed-body {
   min-height: 650px;
 }
 
