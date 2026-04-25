@@ -33,7 +33,7 @@ export default function Etusivu() {
           <p><strong>Huom!</strong> Palvelemme myös ilman ajanvarausta.</p>
         </div>
         <a
-          href="https://avoinna24.fi/salonmerinell/reservation?branch_id=c6592d8a-b4c0-11e3-818a-db4dafeedfdb"
+          href="https://avoinna24.fi/merinellis/reservation?branch_id=e7b18d76-2bf8-11f1-9387-42010ab90124"
           target="_blank"
           rel="noopener noreferrer"
           className="varaa-nappi"
