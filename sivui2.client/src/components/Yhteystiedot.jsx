@@ -28,15 +28,6 @@ export default function Yhteystiedot() {
               </div>
               <div className="some-linkit">
                 <a
-                  href="https://www.instagram.com/merinellis/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="some-ikoni"
-                  aria-label="Instagram"
-                >
-                  <img src={`${import.meta.env.BASE_URL}images/Instagram_Glyph_Gradient.png`} alt="Instagram" />
-                </a>
-                <a
                   href="https://www.facebook.com/people/Hiusstudio-Merinellis/61589537331998/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -44,6 +35,15 @@ export default function Yhteystiedot() {
                   aria-label="Facebook"
                 >
                   <img src={`${import.meta.env.BASE_URL}images/Facebook_Logo_Primary.png`} alt="Facebook" />
+                </a>
+                <a
+                  href="https://www.instagram.com/merinellis/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="some-ikoni"
+                  aria-label="Instagram"
+                >
+                  <img src={`${import.meta.env.BASE_URL}images/Instagram_Glyph_Gradient.png`} alt="Instagram" />
                 </a>
                 <a
                   href="https://www.tiktok.com/@hiusstudio.merinellis"
